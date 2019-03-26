@@ -28,7 +28,7 @@ stage7 = pygame.image.load('images/stage7.png')
 stage8 = pygame.image.load('images/stage8.png')
 
 #Velocities
-playerVel = .8
+playerVel = 10
 bulletVel = 2
 enemyVel = .5
 
@@ -524,12 +524,3 @@ while running:
         running = False
 
 pygame.quit()
-    
-
-    
-
-
-
-
-
-    
